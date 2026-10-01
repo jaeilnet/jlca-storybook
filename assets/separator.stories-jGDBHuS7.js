@@ -1,0 +1,14 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{t}from"./jsx-runtime-DeHZSEgm.js";import{r as n,t as r}from"./dist-BQI90tbb.js";import{n as i,t as a}from"./bundle-mjs-C6fYOv-m.js";function o({className:e,decorative:t=!0,orientation:n=`horizontal`,ref:a,...o}){return(0,s.jsx)(`div`,{...o,"aria-hidden":t?!0:void 0,"aria-orientation":t||n===`horizontal`?void 0:n,className:i(r(`separator`),c,e),"data-orientation":n,"data-slot":`separator`,ref:a,role:t?`none`:`separator`})}var s,c;function l(){return(l=e((()=>{n(),a(),s=t(),c=`shrink-0 bg-[var(--color-border-default)] data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-px`;try{o.displayName=`Separator`,o.__docgenInfo={description:``,displayName:`Separator`,filePath:`/home/runner/work/jlca-design-system/jlca-design-system/packages/primitives/src/data-display/separator/separator.tsx`,methods:[],props:{decorative:{defaultValue:{value:`true`},declarations:[{fileName:`jlca-design-system/packages/primitives/src/data-display/separator/separator.tsx`,name:`TypeLiteral`}],description:``,name:`decorative`,required:!1,tags:{},type:{name:`boolean | undefined`}},orientation:{defaultValue:{value:`horizontal`},declarations:[{fileName:`jlca-design-system/packages/primitives/src/data-display/separator/separator.tsx`,name:`TypeLiteral`}],description:``,name:`orientation`,required:!1,tags:{},type:{name:`enum`,raw:`"horizontal" | "vertical" | undefined`,value:[{value:`undefined`},{value:`"horizontal"`},{value:`"vertical"`}]}}},tags:{}}}catch{}})))()}var u,d,f,p;function m(){return(m=e((()=>{l(),u=t(),d={title:`Primitives/Data Display/Separator`,component:o,tags:[`autodocs`]},f={render:()=>(0,u.jsxs)(`div`,{className:`grid gap-4`,children:[(0,u.jsxs)(`div`,{children:[(0,u.jsx)(`p`,{children:`첫 번째 영역`}),(0,u.jsx)(o,{}),(0,u.jsx)(`p`,{children:`두 번째 영역`})]}),(0,u.jsxs)(`div`,{className:`flex h-10 items-stretch gap-3`,children:[(0,u.jsx)(`span`,{children:`이전`}),(0,u.jsx)(o,{decorative:!1,orientation:`vertical`}),(0,u.jsx)(`span`,{children:`다음`})]})]})},f.parameters={...f.parameters,docs:{...f.parameters?.docs,source:{originalSource:`{
+  render: () => <div className="grid gap-4">
+      <div>
+        <p>첫 번째 영역</p>
+        <Separator />
+        <p>두 번째 영역</p>
+      </div>
+      <div className="flex h-10 items-stretch gap-3">
+        <span>이전</span>
+        <Separator decorative={false} orientation="vertical" />
+        <span>다음</span>
+      </div>
+    </div>
+}`,...f.parameters?.docs?.source}}},p=[`Orientations`]})))()}m();export{f as Orientations,p as __namedExportsOrder,d as default};
